@@ -42,7 +42,7 @@
 }
 
 .navbar-brand {
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
 }
 
@@ -52,6 +52,17 @@
   &:hover {
     color: #fff;
     opacity: 0.75;
+  }
+}
+  
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+  
+.navbar-default .navbar-toggle {
+  border: 2px solid #fff;
+  &:hover, &:focus {
+    background-color: #000e92;
   }
 }
 
